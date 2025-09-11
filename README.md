@@ -1,19 +1,55 @@
-<h1 align="center">Hi 👋, I'm Halil</h1>
-<h3 align="center">A passionate frontend developer from Seattle/WA</h3>
+# Hi, I'm Halil 👋
 
-- 🔭 I’m currently working on **My projects via TripleTen Bootcamp**
+Full‑stack developer focused on building practical, user‑friendly apps with React on the front end and Node.js/Express on the back end.
 
-- 🌱 I’m currently learning **JavaScript Program Logic and Methods**
+- 🚀 I like shipping small features quickly and iterating based on feedback
+- 🧰 Comfortable across the stack: React, JavaScript, Node.js/Express, REST APIs, and Git/GitHub
+- 🌱 Always learning and refining my craft
 
-- 💬 Ask me about **HTML, CSS, JavaScript**
+---
 
-- 📫 How to reach me **halilaybar0@gmail.com**
+## 🔧 Tech I use
+- Frontend: React, JavaScript (ES6+), HTML5, CSS3
+- Backend: Node.js, Express
+- Tools: Git & GitHub, npm, REST/JSON, VS Code
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+## 🗂️ Featured projects
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=halilaybarr&show_icons=true&locale=en&layout=compact" alt="halilaybarr" /></p>
+- WTWR — What To Wear (React)
+  - A weather‑aware outfit suggestion app with a clean UI and reusable components.
+  - Repo: [se_project_wtwr_halil](https://github.com/halilaybarr/se_project_wtwr_halil)
+
+- Express REST API
+  - Backend starter with routing, controllers, and middleware patterns.
+  - Repo: [se_project_express](https://github.com/halilaybarr/se_project_express)
+
+- React Practice App
+  - Component architecture, state management, and CRUD flows.
+  - Repo: [se_project_react](https://github.com/halilaybarr/se_project_react)
+
+- Final Project
+  - Capstone repository for consolidating full‑stack patterns.
+  - Repo: [Final-Project](https://github.com/halilaybarr/Final-Project)
+
+Explore more on my profile:
+- [se_project_wtwr](https://github.com/halilaybarr/se_project_wtwr)
+
+---
+
+## 📫 Get in touch
+- Open an issue on any repo—happy to chat and collaborate!
+
+---
+
+## 📊 GitHub at a glance
+![Halil's GitHub stats](https://github-readme-stats.vercel.app/api?username=halilaybarr&show_icons=true&hide_title=true&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=halilaybarr&layout=compact&theme=transparent)
+
+<!--
+Maintenance tips:
+- If you want, add your email/LinkedIn in the Contact section.
+- Consider adding screenshots/GIFs to project READMEs and link them here.
+- Keep Featured projects to 3–5 and rotate occasionally.
+-->

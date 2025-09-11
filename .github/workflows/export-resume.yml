@@ -29,16 +29,18 @@ jobs:
           md-to-pdf "resume/Halil-Aybar-Resume.md" \
             --stylesheet resume/resume.css \
             --basedir . \
-            --config-file resume/md-to-pdf.json \
-            --out-file resume/dist/Halil-Aybar-Resume.pdf
+            --config-file resume/md-to-pdf.json
+          # Default output is resume/Halil-Aybar-Resume.pdf
+          mv "resume/Halil-Aybar-Resume.pdf" "resume/dist/Halil-Aybar-Resume.pdf"
 
       - name: Export cover letter PDF
         run: |
           md-to-pdf "resume/Cover-Letter-Template.md" \
             --stylesheet resume/resume.css \
             --basedir . \
-            --config-file resume/md-to-pdf.json \
-            --out-file resume/dist/Cover-Letter-Template.pdf
+            --config-file resume/md-to-pdf.json
+          # Default output is resume/Cover-Letter-Template.pdf
+          mv "resume/Cover-Letter-Template.pdf" "resume/dist/Cover-Letter-Template.pdf"
 
       - name: Upload PDFs artifact
         uses: actions/upload-artifact@v4

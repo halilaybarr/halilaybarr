@@ -1,0 +1,49 @@
+name: Export resume PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'resume/**'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install md-to-pdf
+        run: npm i -g md-to-pdf
+
+      - name: Create dist folder
+        run: mkdir -p resume/dist
+
+      - name: Export resume PDF
+        run: |
+          md-to-pdf "resume/Halil-Aybar-Resume.md" \
+            --stylesheet resume/resume.css \
+            --basedir . \
+            --config-file resume/md-to-pdf.json \
+            --out-file resume/dist/Halil-Aybar-Resume.pdf
+
+      - name: Export cover letter PDF
+        run: |
+          md-to-pdf "resume/Cover-Letter-Template.md" \
+            --stylesheet resume/resume.css \
+            --basedir . \
+            --config-file resume/md-to-pdf.json \
+            --out-file resume/dist/Cover-Letter-Template.pdf
+
+      - name: Upload PDFs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdfs
+          path: |
+            resume/dist/Halil-Aybar-Resume.pdf
+            resume/dist/Cover-Letter-Template.pdf

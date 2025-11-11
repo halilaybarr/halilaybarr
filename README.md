@@ -17,17 +17,21 @@ Full‑stack developer focused on building practical, user‑friendly apps with 
 
 ## 🗂️ Featured projects
 
+- Final Project
+  - Capstone full‑stack project consolidating patterns across authentication, CRUD operations, routing, and deployment.
+  - Highlights: JWT auth, reusable component system, robust error handling, responsive UI, environment‑based config
+  - Repo: [Final-Project](https://github.com/halilaybarr/Final-Project)
+  - Live demo: [Open](https://visionary-semifreddo-188112.netlify.app/)
+
 - WTWR — What To Wear (React)
-  - A weather‑aware outfit suggestion app with a clean UI and reusable components.
+  - Weather‑aware outfit suggestion app with secure auth and wardrobe management.
+  - Highlights: JWT auth, add/like/delete items, weather API integration, profile editing, responsive design, React Router, Context
   - Repo: [se_project_wtwr_halil](https://github.com/halilaybarr/se_project_wtwr_halil)
 
 - Express REST API
-  - Backend starter with routing, controllers, and middleware patterns.
+  - Backend starter illustrating clean separation of routes, controllers, and middleware.
+  - Highlights: modular routing, error handling pattern, validation scaffolding, REST/JSON conventions
   - Repo: [se_project_express](https://github.com/halilaybarr/se_project_express)
-
-- Final Project
-  - Capstone repository for consolidating full‑stack patterns.
-  - Repo: [Final-Project](https://github.com/halilaybarr/Final-Project)
 
 ---
 

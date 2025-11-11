@@ -25,16 +25,9 @@ Full‑stack developer focused on building practical, user‑friendly apps with 
   - Backend starter with routing, controllers, and middleware patterns.
   - Repo: [se_project_express](https://github.com/halilaybarr/se_project_express)
 
-- React Practice App
-  - Component architecture, state management, and CRUD flows.
-  - Repo: [se_project_react](https://github.com/halilaybarr/se_project_react)
-
 - Final Project
   - Capstone repository for consolidating full‑stack patterns.
   - Repo: [Final-Project](https://github.com/halilaybarr/Final-Project)
-
-Explore more on my profile:
-- [se_project_wtwr](https://github.com/halilaybarr/se_project_wtwr)
 
 ---
 

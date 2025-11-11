@@ -27,6 +27,7 @@ Full‑stack developer focused on building practical, user‑friendly apps with 
   - Weather‑aware outfit suggestion app with secure auth and wardrobe management.
   - Highlights: JWT auth, add/like/delete items, weather API integration, profile editing, responsive design, React Router, Context
   - Repo: [se_project_wtwr_halil](https://github.com/halilaybarr/se_project_wtwr_halil)
+  - Live demo: [Open](https://wtwrhalil.jumpingcrab.com/)
 
 - Express REST API
   - Backend starter illustrating clean separation of routes, controllers, and middleware.

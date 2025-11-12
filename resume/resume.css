@@ -1,0 +1,50 @@
+@page {
+  size: Letter;
+  margin: 18mm 18mm 18mm 18mm;
+}
+
+:root {
+  --text: #0b1526;
+  --muted: #4a5568;
+  --accent: #1f6feb;
+}
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 22px;
+  margin: 0 0 8px 0;
+}
+
+h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 18px 0 6px 0;
+}
+
+p, li {
+  font-size: 11.5px;
+  line-height: 1.45;
+  margin: 0 0 6px 0;
+}
+
+ul { margin: 6px 0 6px 18px; }
+
+em, strong { color: var(--text); }
+
+a { color: var(--accent); text-decoration: none; }
+
+hr { border: none; border-top: 1px solid #e5e7eb; margin: 10px 0; }
+
+/* Compact list spacing for bullets */
+ul li { margin: 0 0 3px 0; }
+
+/* Avoid page breaks within entries */
+h2, h2 + p, h2 + ul { page-break-inside: avoid; }
+
+/* First section heading hidden since we manually style the top lines */
+#halil-aybar { display: none; }
